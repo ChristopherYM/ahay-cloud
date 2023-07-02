@@ -1,0 +1,53 @@
+.estuiloY{
+    color: transparent;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 70px;
+    font-family: cursive;
+    -webkit-text-stroke: 4px rgb(255,32,0);
+}
+
+.estiloData{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 10px;
+    font-family: monospace;
+    width: 550px;
+    height: 85px;
+    color: white;
+    background-color: rgb(93, 72, 145);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 9px;
+    margin: 10px;
+    line-height: 50%;
+    align-items: center;
+}
+
+.searchinput{
+    background-color: rgb(93, 72, 145);
+    border: 0;
+    border-radius: 9px;
+    font-size: 18px;
+    padding: 15px;
+    height: 20px;
+    width: 600px;
+    color: white;
+    margin: 20px;
+}
+
+input::placeholder{
+    color:rgb(218, 218, 218);
+  }
+
+.butonseach{
+    width: 50px;
+    background-color: rgb(93, 72, 145);
+    display: grid;
+    place-items: center;
+    color: rgb(255,32,0);
+    height: 50px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
