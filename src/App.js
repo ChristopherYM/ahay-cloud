@@ -12,7 +12,7 @@ export default function App() {
   const [videoList, setVideoList] = useState([])
 
   const userData = async () => {
-    const response = await axios.get('https://ahay-328fca07ad48.herokuapp.com//api/get?param=' + videoGet);
+    const response = await axios.get('https://ahay-328fca07ad48.herokuapp.com/api/get?param=' + videoGet);
     setVideoList(response.data);
   };
 
