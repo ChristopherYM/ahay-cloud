@@ -39,7 +39,7 @@ export default function App() {
         return (
           <div className="estiloData">
             <h1>{val.video_title} </h1>
-            <p> Segundo que aparece: {val.at_second} </p>
+            <p> Palabra buscada: {val.label} | Segundo que aparece: {val.at_second} </p>
             <p>
               Url: 
               <a href={'https://storage.googleapis.com/videos_yolo/' + val.video_title} target="_blank" rel="noopener noreferrer" style={{ color: 'white' }}>
