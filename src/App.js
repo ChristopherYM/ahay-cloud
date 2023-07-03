@@ -38,12 +38,12 @@ export default function App() {
       {videoList.map((val) => {
         return (
           <div className="estiloData">
-            <h1>{val.video_name} </h1>
-            <p> Segundo Inicio: {val.start_second} | Segundo Final: {val.end_second}</p>
+            <h1>{val.video_titke} </h1>
+            <p> Segundo que aparece: {val.at_second} </p>
             <p>
               Url: 
-              <a href={val.url} target="_blank" rel="noopener noreferrer" style={{ color: 'white' }}>
-                {val.url}
+              <a href={'https://storage.googleapis.com/videos_yolo/' + val.video_titke} target="_blank" rel="noopener noreferrer" style={{ color: 'white' }}>
+                {'https://storage.googleapis.com/videos_yolo/' + val.video_titke}
               </a>
             </p>
           </div>
